@@ -12,7 +12,13 @@ This bash script iterates over the default Rockyou.txt dictionary passwords.
 
 -------------------
 
-## Example
+## Dependencies
+- steghide
+```shell
+apt install steghide
+```
+
+## Usage
 ```shell
  ./estegCrack -i image.jpg -w wordlist.txt
  ./estegCrack -i penguin.jpg -w /usr/share/wordlists/rockyou.txt
